@@ -30,7 +30,7 @@ class StationSearch:
 
             return out[0], out[1]
 
-    def max_fluctuation(self):
+    def max_fluctuation(self) -> str:
         """
         Returns the station_id that recorded the largest fluctuations.
 
@@ -66,7 +66,7 @@ class StationSearch:
 
         return max_id
 
-    def max_fluctuation_by_dates(self, start: str, end: str):
+    def max_fluctuation_by_dates(self, start: str, end: str) -> str:
         """
         Returns the station_id that recorded the largest fluctuations
         within the provided date range.
